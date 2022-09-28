@@ -1,0 +1,126 @@
+body{background-color: yellow;
+}
+h1{text-align: center;}
+.test{width: 100px;
+height: 100px;
+background-color: aqua;
+margin: 2%;
+animation-name: pehla;
+transform: skewX(10deg);
+position: relative;
+animation-name: pehla;
+    animation-duration: 3s;
+    animation-timing-function:ease;
+    animation-delay: 0;
+animation-iteration-count: 4;
+animation-direction:alternate;
+}
+.one ,.two,.three,.four{display: flex;
+
+}
+li{margin-left: 40%;}
+.tesq{width: 100px;
+    height: 100px;
+    background-color:orange;
+    margin: 2%;
+    animation-name: pehla;
+    transform: skewY(10deg);
+    position: relative;
+    animation-name: dusra;
+        animation-duration: 3s;
+        animation-timing-function:ease;
+        animation-delay: 0;
+    animation-iteration-count: 4;
+    animation-direction:alternate;}
+
+    .tesw{
+        width: 100px;
+    height: 100px;
+    background-color:rgb(0, 89, 255);
+    margin: 2%;
+    animation-name: pehla;
+    transform: rotate(0deg);
+    position: relative;
+    animation-name: teesra;
+        animation-duration: 3s;
+        animation-timing-function:ease;
+        animation-delay: 0;
+    animation-iteration-count: 4;
+    animation-direction:alternate;
+    }
+    
+   @keyframes pehla { 0%{
+    transform: skewX(10deg);
+   }
+   25%{transform: skewX(20deg);}
+   
+   75%{transform: skewX(-20deg);}
+}
+   @keyframes dusra { 0%{
+    transform: skewY(10deg);
+   }
+   25%{transform: skewY(20deg);}
+   
+   75%{transform: skewY(-20deg);}
+
+   }
+   @keyframes teesra { from{transform: rotate(0deg);}
+   to{transform: rotate(360deg);}
+   }
+   .tese{width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border: 1px solid rgb(74, 16, 128);
+    margin: 2%;
+    animation-name: gela;
+    
+    position: relative;
+    
+        animation-duration: 3s;
+        animation-timing-function:ease;
+        animation-delay: 0;
+    animation-iteration-count: 4;
+    animation-direction:alternate;}
+    @keyframes gela { from{height: 100px;}
+
+    to{transform: scaleY(0.5);}
+    }
+    .tesr{width: 100px;
+        height: 100px;
+        background-color: red;
+        border: 1px solid rgb(74, 16, 128);
+        margin: 2%;
+        animation-name: tela;
+        
+        position: relative;
+        
+            animation-duration: 3s;
+            animation-timing-function:ease;
+            animation-delay: 0;
+        animation-iteration-count: 4;
+        animation-direction:alternate;}
+        @keyframes tela { from{weight: 100px;}
+    
+        to{transform: scaleX(0.5);}
+        }
+        .tesa{width: 100px;
+            height: 100px;
+            background-color: green;
+            border: 1px solid rgb(74, 16, 128);
+            margin: 2%;
+            animation-name: bela;
+            
+            position: relative;
+            
+                animation-duration: 3s;
+                animation-timing-function:ease;
+                animation-delay: 0;
+            animation-iteration-count: 4;
+            animation-direction:alternate;}
+            @keyframes bela { from{transform: rotate(0deg);}
+        
+            to{transform: rotate(360deg);}
+            }
+
+            a{margin-left: 42%;
+            font-size: 30px;}

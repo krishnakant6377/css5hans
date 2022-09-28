@@ -1,0 +1,72 @@
+body{background-color: yellow;
+}
+h1{text-align: center;}
+div{width: 100px;
+height: 100px;
+background-color: aquamarine; 
+
+}
+
+li{margin-left: 40%;}
+.one:hover{animation: aaa 4s linear  alternate;}
+@keyframes aaa {0% {width: 100px;
+}
+50%
+{
+   width: 400px; }
+   100%{width: 100px;}
+}
+.two:hover{animation: bbb 2s ease  alternate;}
+@keyframes bbb {0% {width: 100px;
+    height: 100px;
+}
+50%
+{
+    width: 300px;
+height: 300px;}
+100%{width: 100px;
+    height: 100px;}
+}
+.three:hover{animation: ccc 4s ease-in  alternate;}
+@keyframes ccc {0% {width: 100px;
+}
+50%
+{
+   width: 300px; }
+   100%{width: 100px;}
+}
+
+.four:hover{animation: ddd 4s ease-out  alternate;}
+@keyframes ddd {0% {width: 100px;
+}
+50%
+{
+   width: 300px; }
+   100%{width: 100px;}
+}
+.five:hover{animation: eee 4s ease-in-out  alternate;}
+@keyframes eee {0% {width: 100px;
+}
+50%
+{
+   width: 300px; }
+   
+}
+.six:hover{animation: fff 4s ease  alternate;}
+@keyframes fff {0% {width: 100px;
+}
+50%
+{
+   width: 300px; }
+   
+}
+.seven:hover{animation: ggg 4s linear  alternate;}
+@keyframes ggg {0% {width: 100px;
+}
+50%
+{
+   width: 300px; }
+   
+}
+a{margin-left: 42%;
+    font-size: 30px;}
